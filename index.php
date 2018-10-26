@@ -4,8 +4,12 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "CST 336 Homepage";
+echo "Mercedes Garcia's CST 336 Homepage";
+
 
 ?>
+    <br /><br />
+    
+    <a href="Lab1/index.html"> Lab 1</a>
 </body>
 </html>
