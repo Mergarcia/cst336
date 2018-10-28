@@ -1,0 +1,114 @@
+/* Rule:1  */
+
+    
+body {
+
+    background-color:#006555;
+    color:#fffaf0;
+    font-size: 1.2em;
+    margin: 0 auto;
+}
+
+header, nav, footer { 
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-shadow: 2px 2px 3px grey, 0 0 35px black, 0 0 5px grey;
+}
+
+main {
+    margin: 10px 20px 40px;
+    
+}
+
+header {  
+    background-color: #006555 ;
+    padding: 15px;
+    padding-bottom: 4px;
+}
+
+nav a { 
+    padding: 25px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none; 
+    color: white;  
+    text-shadow: 1px 1px 2px grey, 0 0 25px turquoise, 0 0 5px grey;
+    }
+    
+nav a:hover { /*pseudo class*/
+    border-bottom:2px orange solid;
+    font-size: 2em;
+    transition: .9s; 
+    }
+    
+figure {
+    margin: 10px 20px 40px;
+    float:left;
+    padding-top: 35px;
+    padding-left: 40px;
+}   
+
+.text {
+    float:left;
+    line-height: 25pt;
+    width: 375px;
+    text-align: left;
+    font-size:15pt;
+    padding-left: 65px;
+    padding-right: 180px;
+ 
+}
+
+.Sources {
+    text-align:left;
+    line-height: 18pt;
+    width:150px;
+    font-size: 15pt;
+    font-weight: bolder;
+    float: left;
+}
+
+#napsterLogo {
+    float:left;
+    padding-right:0px;
+    padding-left: 60px;
+    padding-top: 0px;
+}
+
+#torrents {
+    float:left;
+    box-shadow: 10px 8px 5px black;
+}
+
+#impactText {
+    width: 700px;
+    font-size: 15pt;
+    line-height: 20pt;
+    padding-left: 100px;
+    padding-right: 180px;
+    float:left;
+}
+
+#sources {
+    text-align:left;
+    line-height: 18pt;
+    width:150px;
+    font-size: 15pt;
+    font-weight: bolder;
+    float: left;
+}
+
+footer {
+    background-color: #006555;
+    padding: 10px;
+    padding-bottom: 50px;
+    clear: left;
+    font-size: .9em;
+}
+
+
