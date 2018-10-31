@@ -31,7 +31,7 @@ function displayPoints($randomValue1, $randomValue2, $randomValue3) {
             {
                 case 0: $totalPoints = 1000;
                     echo "<h1>Jackpot!</h1>";
-                    echo"<h2><audio src='img/jackpot.wav' controls autoplay </audio></h2>";
+                    echo"<h2><audio src='img/jackpot.wav' autoplay </audio></h2>";
                     break;
                 case 1: $totalPoints = 900;
                     break;
@@ -49,7 +49,7 @@ function displayPoints($randomValue1, $randomValue2, $randomValue3) {
     
 function play() {
     for ($i=1; $i<4; $i++) {
-        ${"randomValue" . $i} = rand(0,1);
+        ${"randomValue" . $i} = rand(0,3);
         displaySymbol(${"randomValue" . $i}, $i );
         }
         displayPoints($randomValue1, $randomValue2, $randomValue3);
