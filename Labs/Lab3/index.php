@@ -50,7 +50,6 @@
                 <option value="otters">Otters</option>
                 <option value="sky">Sky</option>
                 <option value="dogs">Dogs</option>
-                
             </select>
             <input type="submit" value="Submit" />
         </form>

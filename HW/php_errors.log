@@ -1,0 +1,18 @@
+[09-Nov-2018 03:37:53 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 8
+[09-Nov-2018 03:48:23 UTC] PHP Warning:  include(styles.css): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 2
+[09-Nov-2018 03:48:23 UTC] PHP Stack trace:
+[09-Nov-2018 03:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:0
+[09-Nov-2018 03:48:23 UTC] PHP Warning:  include(): Failed opening 'styles.css' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 2
+[09-Nov-2018 03:48:23 UTC] PHP Stack trace:
+[09-Nov-2018 03:48:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:0
+[09-Nov-2018 05:11:45 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 83
+[09-Nov-2018 08:48:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 71
+[09-Nov-2018 09:23:21 UTC] PHP Parse error:  syntax error, unexpected 'allowfullscreen' (T_STRING) in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 21
+[09-Nov-2018 09:32:38 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 47
+[09-Nov-2018 09:36:14 UTC] PHP Warning:  preg_replace() expects at least 3 parameters, 2 given in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 23
+[09-Nov-2018 09:36:14 UTC] PHP Stack trace:
+[09-Nov-2018 09:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:0
+[09-Nov-2018 09:36:14 UTC] PHP   2. convertYoutube() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:45
+[09-Nov-2018 09:36:14 UTC] PHP   3. preg_replace() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:23
+[09-Nov-2018 20:35:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 127
+[09-Nov-2018 20:39:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 107
