@@ -8,7 +8,7 @@ footer {
         font-size: 13pt;
         width:600px;
         margin:0 auto;
-        color: black;
+        color: #800020;
     }
     
 h1 {
@@ -48,12 +48,11 @@ input {
     text-align: center;
     font-size: 23pt;
     font-family: 'Shadows Into Light Two';
-    color: black;
+    color: #800020;
     padding-right: 100px;
     
 }
 #homepage {
-    padding-top: 100px;
     text-align: center;
     padding-bottom: 100px;
     padding-right: 100px;
