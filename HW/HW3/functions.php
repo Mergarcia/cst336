@@ -15,10 +15,10 @@ function main() {
             
              }
              else {
-                 result1($q1,$q2,$q3,$q4,$q5);
+                 results();
+
              }
-        
-        
+
         
 }
 
@@ -34,26 +34,21 @@ function convertYoutube($string) {
 }
 
 // Results: 'Another One Bites The Dust'
-function result1($q1,$q2,$q3,$q4,$q5) {
+function results() {
     if(($q1 == 'bass') && ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')){
         $text = 'https://www.youtube.com/watch?v=rY0WxgSXdEE';
         echo "<div id='result'>";
-        echo "Your favorite instrument is the Bass!";
         echo "<br />";
-        echo "Your song is 'Another One Bites The Dust'!";
+        echo "<strong>Your song is 'Another One Bites The Dust'!<strong>";
         echo "<br />";
         echo "<br />";
         echo convertYoutube($text);
         echo "</div>";
-        }  
-    }
- // Results: 'Bohemian Rhapsody'
-function result2($q1,$q2,$q3,$q4,$q5)  {
-    if(($q1 == 'bass') && ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')){
+        }  elseif (($q1 == 'guitar') || ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')){
+            
         echo "<div id='result'>";
         $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
         echo "<div id='result'>";
-        echo "Your favorite instrument is the Guitar!";
         echo "<br />";
         echo "Your song is 'Bohemian Rhapsody'!";
         echo "<br />";
@@ -61,6 +56,10 @@ function result2($q1,$q2,$q3,$q4,$q5)  {
         echo "<br />";
         echo "</div>";
     }
+ }
+ // Results: 'Bohemian Rhapsody'
+function result2($q1,$q2,$q3,$q4,$q5)  {
+    
 }
  // Results: 'Waynes World'
 function result3($q2)  {
@@ -69,9 +68,8 @@ function result3($q2)  {
          
         $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
         echo "<div id='result'>";
-        echo "Your favorite instrument is the Guitar!";
         echo "<br />";
-        echo "Your song is 'Bohemian Rhapsody'!";
+        echo "<strong>Your song is 'Bohemian Rhapsody'!</strong>";
         echo "<br />";
         echo convertYoutube($text);
         echo "<br />";
@@ -128,7 +126,7 @@ function result7($q1,$q2,$q3,$q4,$q5)  {
     if(($q1 == 'vocals') && ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'excited') || ($q5 == 'no')){
         $text = 'https://www.youtube.com/watch?v=2ZBtPf7FOoM?autoplay';
         echo "<div id='result'>";
-        echo "Your song is 'Killer Queen'!";
+        echo "<strong>Your song is 'Killer Queen'!</strong>";
         echo "<br />";
         echo "<br />";
         echo convertYoutube($text);
@@ -140,7 +138,7 @@ function result8($q1,$q2,$q3,$q4,$q5)  {
     if(($q1 == 'vocals') && ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')) {
         $text = 'https://www.youtube.com/watch?v=HaZpZQG2z10';
         echo "<div id='result'>";
-        echo "Your song is 'You're My Best Friend'!";
+        echo "<strong>Your song is 'You're My Best Friend'!</strong>";
         echo "<br />";
         echo "<br />";
         echo convertYoutube($text);
