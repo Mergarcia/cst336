@@ -24,7 +24,7 @@ include 'functions.php';
                     
                 }
                 
-                    
+                    session_destroy();
                      main();
                 
                 
@@ -102,11 +102,11 @@ include 'functions.php';
                     ?>>Hell, Yeah!</option>
                         
                     <option  value="no"
-                     <?php if (isset($_GET['q2'])) {
+                     <?php 
                         if($_SESSION['q2'] == 'no'){
                             echo 'selected="selected"';
                         } 
-                    }
+        
                     ?>>No</option>
                 </select>
                 <br />
@@ -118,11 +118,7 @@ include 'functions.php';
             <br />
                 <label for="lyric">We will, we will...</label><br>
                 <input type="text" name="q3" placeholder="Lyrics" 
-                value="<?php if (isset($_GET['q3'])) 
-                    {
-                        echo $_SESSION['q3']; 
-                    }
-                    ?>" />
+                value="<?php  echo $_SESSION['q3'];?>" />
                 <br />
             </fieldset> 
 
@@ -184,11 +180,10 @@ include 'functions.php';
                     
                     ?>>Hell, Yeah!</option>
                     <option name="q5" value="no"
-                        <?php if (isset($_GET['q5'])) {
+                        <?php 
                         if($_SESSION['q5'] == 'no'){
                             echo 'selected="selected"';
                         } 
-                    }
                     ?>>Nah Bruh!</option>
                 </select>
                 <br />
@@ -196,12 +191,6 @@ include 'functions.php';
             <input id="submit" name="submit" type="submit" value="Submit" />
         </form> 
     </div>
-  <?php
-  
-
-  
-  ?>
-
 
     <footer id="indexFooter"> 
             <hr>

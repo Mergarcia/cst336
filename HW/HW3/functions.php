@@ -14,17 +14,71 @@ function main() {
                 echo "<h3>ERROR: You Must ENTER or SELECT an option </h3>";       
             
              }
-             else {
-                 results();
+             //Results: 'Bohemian Rhapsody'
+             if (($q1  == 'guitar') && ($q2 == 'no') && (($q3 != 'rock you') || ($q3 =='rock you'))
+                        && (($q4 == 'dramatic ') || ($q4 == 'melancholy')) && (($q5 == 'yes') || ($q5 == 'no'))){
+                $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
+                echo "<div id='result'>";
+                echo "<strong>Your song is 'Bohemian Rhapsody'!</strong>";
+                echo "<br />";
+                echo "<br />";
+                echo convertYoutube($text);
+                echo "</div>";
+            }
+            // Results: 'Another One Bites The Dust'
+            if(($q1  == 'bass') && (($q2 == 'yes') || ($q2 == 'no' )) && (($q3 != 'rock you') || ($q3 =='rock you')) && (($q4 == 'excited ') || ($q4 == 'happy') || ($q4 == 'melancholy')) 
+                        && (($q5 == 'yes')||($q5 == 'no'))) {
+                $text = 'https://www.youtube.com/watch?v=rY0WxgSXdEE';
+                echo "<div id='result'>";
+                echo "<strong>Your song is 'Another One Bites The Dust'!</strong>";
+                echo "<br />";
+                echo "<br />";
+                echo convertYoutube($text);
+                echo "</div>";
+               
+            } 
+             // Results: 'Waynes World'
+            if ((($q1 == 'vocals')  || ($q1 == 'drums')) && ($q2 == 'yes') && (($q3 != 'rock you') || ($q3 =='rock you')) 
+                    && (($q4 == 'excited ') || ($q4 == 'happy') || ($q4 == 'melancholy') || ($q4 == 'dramatic')) && (($q5 == 'yes')||($q5 == 'no'))) {
+                echo "<div id='result'>";
+                $text = "https://www.youtube.com/watch?v=thyJOnasHVE&t=80s";
+                echo "<div id='result'>";
+                echo "<br />";
+                echo "Your song is 'Bohemian Rhapsody'!";
+                echo "<br />";
+                echo convertYoutube($text);
+                echo "<br />";
+                echo "</div>";
 
              }
+             // Results: 'Don't Stop Me Now'
+             if  ((($q1 == 'vocals') || ($q1 == 'drums')) && ($q2 == 'no') && 
+                    ($q3 != 'rock you') && (($q4 == 'excited ') || ($q4 == 'happy')) && (($q5 == 'yes')||($q5 == 'no'))) {
+                $text = 'https://www.youtube.com/watch?v=HgzGwKwLmgM';
+                echo "<div id='result'>";
+                echo "Your song is 'Don't Stop Me Now'!";
+                echo "<br />";
+                echo "<br />";
+                echo convertYoutube($text);
+                echo "</div>";
+    }
 
-        
+            }
+            // Results: 'We Will Rock You'
+            if  (($q1 == 'drums') && ($q2 == 'no') && 
+                    ($q3 == 'rock you') && (($q4 == 'dramatic ') || ($q4 == 'happy'))  && ($q5 == 'yes')) {
+                echo "<div id='result'>"; {
+                $text = 'https://www.youtube.com/watch?v=-tJYN-eG1zk';
+                echo "<div id='result'>";
+                echo "Your song is 'We Will Rock You'!";
+                echo "<br />";
+                echo "<br />";
+                echo convertYoutube($text);
+                echo "</div>";
+    } 
+    
+    }
 }
-
-
-}
-
 function convertYoutube($string) {
 	return preg_replace(
 		"/\s*[a-zA-Z\/\/:\.]*youtu(be.com\/watch\?v=|.be\/)([a-zA-Z0-9\-_]+)([a-zA-Z0-9\/\*\-\_\?\&\;\%\=\.]*)/i",
@@ -33,7 +87,7 @@ function convertYoutube($string) {
 	);
 }
 
-// Results: 'Another One Bites The Dust'
+
 function results() {
     if($q1 == 'bass'){
         $text = 'https://www.youtube.com/watch?v=rY0WxgSXdEE';
@@ -99,11 +153,11 @@ function results() {
         echo "</div>";
     }
  }
- // Results: 'Bohemian Rhapsody'
-function result2($q1,$q2,$q3,$q4,$q5)  {
+ 
+ {
     
 }
- // Results: 'Waynes World'
+
 function result3($q2)  {
 
      if ($q2 == 'yes') {
@@ -120,7 +174,7 @@ function result3($q2)  {
      }
     }
     
- // Results: 'Don't Stop Me Now'
+ 
 function result4($q2,$q3,$q4,$q5)  {
     if(($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'happy') || ($q5 == 'yes')){
      $text = 'https://www.youtube.com/watch?v=HgzGwKwLmgM';
@@ -133,7 +187,7 @@ function result4($q2,$q3,$q4,$q5)  {
     }
     }
 
-// Results: 'We Will Rock You'
+
 function result5($q1,$q3,$q4,$q5)  {
     if(($q1 == 'drums') || ($q3 == 'champions') || ($q4 == 'dramatic') || ($q5 == 'yes')) {
         $text = 'https://www.youtube.com/watch?v=-tJYN-eG1zk';
@@ -187,5 +241,6 @@ function result8($q1,$q2,$q3,$q4,$q5)  {
         echo "</div>";
     }
 }
+
 
 ?>
