@@ -35,7 +35,7 @@ function convertYoutube($string) {
 
 // Results: 'Another One Bites The Dust'
 function results() {
-    if(($q1 == 'bass') && ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')){
+    if($q1 == 'bass'){
         $text = 'https://www.youtube.com/watch?v=rY0WxgSXdEE';
         echo "<div id='result'>";
         echo "<br />";
@@ -44,13 +44,55 @@ function results() {
         echo "<br />";
         echo convertYoutube($text);
         echo "</div>";
-        }  elseif (($q1 == 'guitar') || ($q2 == 'no') || ($q3 != 'champions') || ($q4 == 'melancholy') || ($q5 == 'no')){
+        }  elseif ($q1 == 'vocals') {
             
         echo "<div id='result'>";
         $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
         echo "<div id='result'>";
         echo "<br />";
         echo "Your song is 'Bohemian Rhapsody'!";
+        echo "<br />";
+        echo convertYoutube($text);
+        echo "<br />";
+        echo "</div>";
+    }  elseif ($q2 == 'yes') {
+            
+        echo "<div id='result'>";
+        $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
+        echo "<div id='result'>";
+        echo "<br />";
+        echo "Your song is 'Bohemian Rhapsody'!";
+        echo "<br />";
+        echo convertYoutube($text);
+        echo "<br />";
+        echo "</div>";
+    }   
+    if ($q3 == 'rock you') {
+            
+        $text = 'https://www.youtube.com/watch?v=-tJYN-eG1zk';
+        echo "<div id='result'>";
+        echo "Your song is 'We Will Rock You'!";
+        echo "<br />";
+        echo "<br />";
+        echo convertYoutube($text);
+        echo "</div>";
+    } 
+    if ($q4 == 'melancholy') {
+            
+        $text = 'https://www.youtube.com/watch?v=HaZpZQG2z10';
+        echo "<div id='result'>";
+        echo "<strong>Your song is 'You're My Best Friend'!</strong>";
+        echo "<br />";
+        echo "<br />";
+        echo convertYoutube($text);
+        echo "</div>";
+    }
+    if ($q5 == 'yes') {
+            
+        $text = 'https://www.youtube.com/watch?v=hSTivVclQQ0';
+        echo "<div id='result'>";
+        echo "Your song is 'We Are The Champions'!";
+        echo "<br />";
         echo "<br />";
         echo convertYoutube($text);
         echo "<br />";
