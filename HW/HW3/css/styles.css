@@ -31,7 +31,7 @@ fieldset {
 }
 
 input {
-    text-align: left;
+    text-align: center;
 }
 
 #question {
@@ -39,33 +39,32 @@ input {
     
 }
 .container {
-    padding-left: 350px
+    padding-left: 350px;
     
 }
 
 #result {
-    padding-top: 200px;
+    
     text-align: center;
     font-size: 23pt;
     font-family: 'Shadows Into Light Two';
-    color: #800020;
+    color: black;
     padding-right: 100px;
+    padding-top: 400px;
     
 }
-#homepage {
+
+h3 {
     text-align: center;
-    padding-bottom: 100px;
-    padding-right: 100px;
-    font-size: 30pt;
+    padding-right: 300px;
+    font-size: 26pt;
     color: #800020;
-
-}
-
-
-#resultsBody {
-    background-size: 100%;
-    background-image: url("../img/queen_bg.jpg");
     
+   }
+
+#submit {
+    text-align: center;
+   
 }
 
 

@@ -16,3 +16,40 @@
 [09-Nov-2018 09:36:14 UTC] PHP   3. preg_replace() /home/ubuntu/workspace/cst336/HW/HW3/Question1.php:23
 [09-Nov-2018 20:35:48 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 127
 [09-Nov-2018 20:39:35 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/HW/HW3/Question1.php on line 107
+[10-Nov-2018 04:33:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 168
+[11-Nov-2018 03:54:52 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/cst336/HW/HW3/index.php:161) in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 170
+[11-Nov-2018 03:54:52 UTC] PHP Stack trace:
+[11-Nov-2018 03:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 03:54:52 UTC] PHP   2. session_start() /home/ubuntu/workspace/cst336/HW/HW3/index.php:170
+[11-Nov-2018 03:56:38 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/cst336/HW/HW3/index.php:161) in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 170
+[11-Nov-2018 03:56:38 UTC] PHP Stack trace:
+[11-Nov-2018 03:56:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 03:56:38 UTC] PHP   2. session_start() /home/ubuntu/workspace/cst336/HW/HW3/index.php:170
+[11-Nov-2018 05:01:16 UTC] PHP Fatal error:  Cannot redeclare convertYoutube() (previously declared in /home/ubuntu/workspace/cst336/HW/HW3/index.php:4) in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 3
+[11-Nov-2018 05:01:16 UTC] PHP Stack trace:
+[11-Nov-2018 05:01:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 05:09:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 140
+[11-Nov-2018 05:09:27 UTC] PHP Stack trace:
+[11-Nov-2018 05:09:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:04:39 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/HW/HW3/index1.php on line 125
+[11-Nov-2018 06:12:52 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 5
+[11-Nov-2018 06:12:52 UTC] PHP Stack trace:
+[11-Nov-2018 06:12:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:21:41 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 5
+[11-Nov-2018 06:21:41 UTC] PHP Stack trace:
+[11-Nov-2018 06:21:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:21:42 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 5
+[11-Nov-2018 06:21:42 UTC] PHP Stack trace:
+[11-Nov-2018 06:21:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:42:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 3
+[11-Nov-2018 06:42:31 UTC] PHP Stack trace:
+[11-Nov-2018 06:42:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:42:31 UTC] PHP   2. session_destroy() /home/ubuntu/workspace/cst336/HW/HW3/index.php:3
+[11-Nov-2018 06:45:07 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/cst336/HW/HW3/index.php:167) in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 170
+[11-Nov-2018 06:45:07 UTC] PHP Stack trace:
+[11-Nov-2018 06:45:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:45:07 UTC] PHP   2. session_start() /home/ubuntu/workspace/cst336/HW/HW3/index.php:170
+[11-Nov-2018 06:45:31 UTC] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/ubuntu/workspace/cst336/HW/HW3/index.php:167) in /home/ubuntu/workspace/cst336/HW/HW3/index.php on line 170
+[11-Nov-2018 06:45:31 UTC] PHP Stack trace:
+[11-Nov-2018 06:45:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 06:45:31 UTC] PHP   2. session_start() /home/ubuntu/workspace/cst336/HW/HW3/index.php:170
