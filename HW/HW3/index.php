@@ -2,8 +2,8 @@
 include 'functions.php';
 
     session_start();
-
-                if(isset($_GE['q1'])) {
+                
+                if(isset($_GET['q1'])) {
                     $_SESSION['q1'] = $_GET['q1'];
                     
                 }
@@ -24,11 +24,9 @@ include 'functions.php';
                     
                 }
                 
-                    session_destroy();
-                     main();
-                
-                
-            
+                session_destroy();
+                main();
+                    
 
 ?>
 <!DOCTYPE html>
@@ -127,15 +125,18 @@ include 'functions.php';
             <fieldset> <label for="Question4"><strong>4. What is your current mood? </strong></label> <!-- all will result to "Dont stop me now-->
             <br />
                 <label for="q4">Select all that apply: </label><br>
-                <input id="excited" type="checkbox" name="q4" value="excited"
+                <input id="excited" type="checkbox" name="q4" value="excited" 
                     <?php 
                         if($_SESSION['q4'] == 'excited'){
                             echo 'checked="checked"';
                         } 
+                        else { 'checked=""';
+                            
+                        }
                     ?>
                     >
                 <label for="excited">Excited</label><br>
-                <input id="melancholy" type="checkbox" name="q4" value="melancholy"
+                <input id="melancholy" type="checkbox" name="q4" value="melancholy" 
                 <?php 
                         if($_SESSION['q4'] == 'melancholy'){
                             echo 'checked="checked"';
@@ -144,7 +145,7 @@ include 'functions.php';
                     ?>
                 >
                 <label for="melancholy">Melancholy</label><br>
-                <input id="dramatic" type="checkbox" name="q4" value="dramatic"
+                <input id="dramatic" type="checkbox" name="q4" value="dramatic" 
                     <?php 
                         if($_SESSION['q4'] == 'dramatic'){
                             echo 'checked="checked"';
@@ -153,11 +154,11 @@ include 'functions.php';
                     ?>
                     >
                 <label for="dramatic">Dramatic</label><br>
-                <input id="happy" type="checkbox" name="q4" value="happy"
+                <input id="happy" type="checkbox" name="q4" value="happy" 
                     <?php 
                         if($_SESSION['q4'] == 'happy'){
                             echo 'checked="checked"';
-                        } 
+                        }
                 
                     ?>
                     >

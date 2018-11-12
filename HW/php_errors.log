@@ -57,3 +57,6 @@
 [11-Nov-2018 20:01:59 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 235
 [11-Nov-2018 20:01:59 UTC] PHP Stack trace:
 [11-Nov-2018 20:01:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
+[11-Nov-2018 22:07:45 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/HW/HW3/functions.php on line 245
+[11-Nov-2018 22:07:45 UTC] PHP Stack trace:
+[11-Nov-2018 22:07:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/HW/HW3/index.php:0
