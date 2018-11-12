@@ -101,7 +101,7 @@ function main() {
                  //Results: 'Somebody To Love'
                 elseif(($q1  == 'vocals') && (($q2 == 'yes') || ($q2 == 'no')) && (($q3 != 'rock you') || ($q3 =='rock you'))
                     && (($q4c == 'dramatic') || ($q4b == 'melancholy') || ($q4a == 'excited') ||  ($q4d == 'happy')) 
-                        && (($q5 == 'yes')) || ($q5 == 'no')) {
+                        && (($q5 == 'yes') || ($q5 == 'no'))) {
                     $text = 'https://www.youtube.com/watch?v=aA2IRoPFIn0';
                     echo "<div id='result'>";
                     echo "<strong>Your song is 'Somebody To Love'!</strong>";
@@ -112,8 +112,7 @@ function main() {
                  }
                  //Results: 'You're My Best Friend'
                 elseif(($q1  == 'guitar') &&  ($q2 == 'no' ) && ($q3 =='rock you') 
-                    && (($q4b == 'happy')) 
-                        && ($q5 == 'no'))  {
+                    && ($q4d == 'happy') && ($q5 == 'no'))  {
                     $text = 'https://www.youtube.com/watch?v=HaZpZQG2z10';
                     echo "<div id='result'>";
                     echo "<strong>Your song is 'You're My Best Friend'!</strong>";
