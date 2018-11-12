@@ -34,7 +34,7 @@ function main() {
             }
             // Results: 'Another One Bites The Dust'
              elseif(($q1  == 'bass') && (($q2 == 'yes') || ($q2 == 'no' )) && (($q3 != 'rock you') || ($q3 =='rock you')) && 
-            (($q4c == 'dramatic') || ($q4d == 'happy ') &&  ($q4b == 'melancholy')) 
+            (($q4c == 'dramatic') || ($q4d == 'happy ') ||  ($q4b == 'melancholy') || ($q4a == 'excited')) 
                         && (($q5 == 'yes') || ($q5 == 'no'))) {
                 $text = 'https://www.youtube.com/watch?v=rY0WxgSXdEE';
                 echo "<div id='result'>";
@@ -46,8 +46,8 @@ function main() {
                
             } 
              // Results: 'Waynes World'
-            elseif ((($q1 == 'vocals')  || ($q1 == 'drums')) && ($q2 == 'yes') && (($q3 != 'rock you') || ($q3 =='rock you')) 
-                    && ($q4a == 'excited ') && ($q5 == 'yes')) {
+            elseif ((($q1 == 'guitar')  || ($q1 == 'drums')) && ($q2 == 'yes') && (($q3 != 'rock you') || ($q3 =='rock you')) 
+                    && (($q4a == 'excited') || ($q4d == 'happy')) && ($q5 == 'yes')) {
                 echo "<div id='result'>";
                 $text = "https://www.youtube.com/watch?v=thyJOnasHVE&t=80s";
                 echo "<div id='result'>";
@@ -63,7 +63,7 @@ function main() {
              }
              // Results: 'Don't Stop Me Now'
              elseif  ((($q1 == 'vocals') || ($q1 == 'drums')) && ($q2 == 'no') && 
-                    ($q3 != 'rock you') && (($q4a == 'excited ') || ($q4d == 'happy')) && (($q5 == 'yes')||($q5 == 'no'))) {
+                    ($q3 != 'rock you') && (($q4a == 'excited ') || ($q4d == 'happy') || ($q4b == 'melancholy') ) && (($q5 == 'yes')||($q5 == 'no'))) {
                 $text = 'https://www.youtube.com/watch?v=HgzGwKwLmgM';
                 echo "<div id='result'>";
                 echo "Your song is 'Don't Stop Me Now'!";
@@ -85,19 +85,8 @@ function main() {
                 echo convertYoutube($text);
                 echo "</div>";
                 }
-                //Results: 'Killer Queen'
-             elseif (($q1  == 'vocals') && (($q2 == 'yes') || ($q2 == 'no' )) && (($q3 != 'rock you') || ($q3 =='rock you'))
-                    && (($q4c == 'dramatic') && ($q4b == 'melancholy')) && (($q5 == 'yes')||($q5 == 'no'))) {
-                    $text = 'https://www.youtube.com/watch?v=2ZBtPf7FOoM';
-                    echo "<div id='result'>";
-                    echo "<strong>Your song is 'Killer Queen'!</strong>";
-                    echo "<br />";
-                    echo "<br />";
-                    echo convertYoutube($text);
-                    echo "</div>";
-                }
                 // Results: 'We Are The Champions'!
-            elseif((($q1 == 'guitar') || ($q1 == 'drums') || ($q1 == 'vocals') || ($q1  == 'bass')) && ($q2 == 'yes')  && ($q3 == 'rock you') 
+            elseif((($q1 == 'guitar') || ($q1 == 'drums') || ($q1  == 'bass')) && ($q2 == 'yes')  && ($q3 == 'rock you') 
             && (($q4a == 'excited ') || ($q4c == "dramatic")) 
                         && (($q5 == 'no') || ($q5 == 'yes'))) {
                     $text = 'https://www.youtube.com/watch?v=hSTivVclQQ0';
@@ -110,9 +99,9 @@ function main() {
                     echo "</div>";
                  }
                  //Results: 'Somebody To Love'
-                elseif(($q1  == 'vocals') && ($q2 == 'no' ) && ($q3 =='rock you') 
-                    && (($q4c == 'dramatic') && ($q4d == 'happy')) 
-                        && (($q5 == 'yes')) && ($q5 == 'no')) {
+                elseif(($q1  == 'vocals') && (($q2 == 'yes') || ($q2 == 'no')) && (($q3 != 'rock you') || ($q3 =='rock you'))
+                    && (($q4c == 'dramatic') || ($q4b == 'melancholy') || ($q4a == "excited") ||  ($q4d == 'happy')) 
+                        && (($q5 == 'yes')) || ($q5 == 'no')) {
                     $text = 'https://www.youtube.com/watch?v=aA2IRoPFIn0';
                     echo "<div id='result'>";
                     echo "<strong>Your song is 'Somebody To Love'!</strong>";
@@ -122,8 +111,8 @@ function main() {
                     echo "</div>";
                  }
                  //Results: 'You're My Best Friend'
-                elseif((($q1  == 'drums') || ($q1 == 'vocals')) && (($q2 == 'yes') || ($q2 == 'no' )) && ($q3 =='rock you') 
-                    && (($q4d == 'happy') && ($q4a == 'excited')) 
+                elseif(($q1  == 'guitar') &&  ($q2 == 'no' ) && ($q3 =='rock you') 
+                    && (($q4b == 'happy')) 
                         && ($q5 == 'no'))  {
                     $text = 'https://www.youtube.com/watch?v=HaZpZQG2z10';
                     echo "<div id='result'>";
@@ -133,12 +122,12 @@ function main() {
                     echo convertYoutube($text);
                     echo "</div>";
                     }
-                elseif((($q1 == 'guitar') || ($q1 == 'drums') || ($q1 == 'vocals')) &&  (($q2 == 'yes') || ($q2 == 'no')) &&
+                elseif((($q1 == 'guitar') || ($q1 == 'drums')) &&  (($q2 == 'yes') || ($q2 == 'no')) &&
                         (($q3 != 'rock you') || ($q3 =='rock you')) && (($q4a == 'excited ') || ($q4b == 'melancholy') ||
                             ($q4c == "dramatic") ||  ($q4d == 'happy')) && (($q5 == 'yes')||($q5 == 'no')))  {
-                        $text = 'https://www.youtube.com/watch?v=LS1RXZ6qpLc';
+                        $text = 'https://www.youtube.com/watch?v=2ZBtPf7FOoM';
                         echo "<div id='result'>";
-                        echo "<strong>Your song is 'Play The Game'!</strong>";
+                        echo "<strong>Your song is 'Killer Queen'!</strong>";
                         echo "<br />";
                         echo "<br />";
                         echo convertYoutube($text);
@@ -147,10 +136,7 @@ function main() {
                     }
 
                    
-                    
-
-        }
-
+}
 
 function convertYoutube($string) {
 	return preg_replace(
