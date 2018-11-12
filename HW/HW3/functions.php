@@ -23,7 +23,7 @@ function main() {
              //Results: 'Bohemian Rhapsody'
              
          if (($q1  == 'guitar') && ($q2 == 'no') && (($q3 != 'rock you') || ($q3 =='rock you'))
-                        && (($q4c == 'dramatic ') || ($q4b == 'melancholy') || ()) && (($q5 == 'yes') || ($q5 == 'no'))){
+                        && (($q4c == 'dramatic') || ($q4b == 'melancholy')) && (($q5 == 'yes') || ($q5 == 'no'))){
                 $text = "https://www.youtube.com/watch?v=fJ9rUzIMcZQ";
                 echo "<div id='result'>";
                 echo "<strong>Your song is 'Bohemian Rhapsody'!</strong>";
