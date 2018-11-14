@@ -1,48 +1,41 @@
-<?php 
+<?php
     include 'functions.php';
     
     session_start();
     
-    if(!isset($_SESSION['cart'])) {
+    if(!isset($_SESSION['cart'])){
         $_SESSION['cart'] = array();
     }
     
-    //check to see if the form is submitted
-    if(isset($_GET['query'])) {
-        //Get access to out API function
-        include 'wmapi.php';
-        $items = getProducts($_GET['query']);
-    }
-    
-    
-    // check to see if an item has been added to the cart
-     if(isset($_POST['itemName'])){
+    // Check to see if an item has been added to the cart
+    if(isset($_POST['itemName'])){
         $newItem = array();
         $newItem['name'] = $_POST['itemName'];
         $newItem['price'] = $_POST['itemPrice'];
-        $newItem['image']= $_POST['itemImage'];
+        $newItem['image']=$_POST['itemImage'];
         $newItem['id'] = $_POST['itemId'];
         
-        
-        //Check to see if other items with this id are in the array
-        //If so, this item isnt new. Only update quantity
-        //Must be passed by reference so that each item can be updated!
         foreach($_SESSION['cart'] as &$item){
             if($newItem['id'] == $item['id']){
                 $item['quantity'] += 1;
                 $found = true;
             }
         }
-         // else add it to the array
+        
         if($found != true){
             $newItem['quantity'] = 1;
             array_push($_SESSION['cart'], $newItem);
         }
     }
     
-
+    // Checks to see if the form is submitted
+    if (isset($_GET['query'])) {
+        // Get access to our API function
+        include 'wmapi.php';
+        $items = getProducts($_GET['query']);
+    }
+    
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -68,8 +61,8 @@
                     <ul class='nav navbar-nav'>
                         <li><a href='index.php'>Home</a></li>
                         <li><a href='scart.php'>
-                        <span class='glyphicon glyphicon-shopping-cart' aria-hidded='true' >
-                        </span> Cart: <?php displayCartCount(); ?></a></li>
+                        <span class='glyphicon glyphicon-shopping-cart' aria-hidden='true'></span>
+                        Cart: <?php displayCartCount(); ?> </a></li>
                     </ul>
                 </div>
             </nav>
@@ -86,7 +79,7 @@
             </form>
             
             <!-- Display Search Results -->
-            <?php  displayResults();  ?>
+            <?php displayResults(); ?>
             
         </div>
     </div>
