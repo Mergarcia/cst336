@@ -1,28 +1,28 @@
 <?php
-    include '../Lab5/dbConnection.php';
+    include "dbConnection.php";
     
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection();
+    $productId = $_GET["productId"];
     
-    $productId = $_GET['productId'];
+    $sql = "SELECT *
+           FROM om_product
+           NATURAL JOIN om_purchase
+           WHERE productId = :pId";
     
-    $sql = "SELECT * 
-            FROM om_product
-            NATURAL JOIN om_purchase
-            WHERE productId = :pID";
-            
     $np = array();
-    $np[":pID"] = $productId;
+    $np[":pId"] = $productId;
     
     $stmt = $conn->prepare($sql);
-    $stmt->execute($np);
-    $records = $stmt->fetchALL(PDO::FETCH_ASSOC);
+    $stmt-> execute($np);
+    $records = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
-    echo $records[0]['productName'] . "<br />";
+    echo $records[0]['productName'] . "<br/>";
     echo "<img src='" . $records[0]['productImage'] . "' width='200'/><br/>";
     
-    foreach ($records as $record) {
-        echo "Purchase Date: " . $record["purchaseDate"] . "<br />";
-        echo "Unit Price: " . $record["unitPrice"] . "<br />";
-        echo "Quantity: " . $record["quantity"] . "<br />";
+    foreach($records as $record){
+        echo "Purchase Date: " . $record["purchaseDate"] . "<br/>";
+        echo "Unit Price: " . $record["unitPrice"] . "<br/>";
+        echo "Quantity: " . $record["quantity"] . "<br/>";
+        
     }
 ?>
