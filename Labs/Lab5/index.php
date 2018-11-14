@@ -78,7 +78,7 @@ function displayCategories(){
         <div>
             <h1> OtterMart Product Search </h1>
             <form>
-                
+                <div id="homepage">
                 Product: <input type="text" name="product" />
                 <br>
                 Category:
@@ -98,6 +98,7 @@ function displayCategories(){
                 
                 <br /><br />
                 <input type='submit' value='search' name='searchForm' />
+                </div>
             </form>
             <br />
         </div>

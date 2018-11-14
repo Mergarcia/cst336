@@ -1,0 +1,44 @@
+h1 {
+    font-size: 25pt;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    color: blue;
+}
+
+#homepage {
+    font-family: 'Raleway', sans-serif;
+    padding-left: 600px;
+}
+#product {
+    color: #000080;
+    font-size: 22pt;
+    font-family: 'Raleway', sans-serif;
+    border-style: groove;
+    
+    
+}
+
+#category {
+    color: #000080;
+    font-size: 22pt;
+    font-family: 'Raleway', sans-serif;
+    border-style: groove;
+    
+}
+#price {
+    color: #000080;
+    font-size: 22pt;
+    font-family: 'Raleway', sans-serif;
+    border-style: groove;
+    
+    
+}
+
+#order {
+    color: #000080;
+    font-size: 22pt;
+    font-family: 'Raleway', sans-serif;
+    border-style: groove;
+    
+    
+}
