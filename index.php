@@ -10,6 +10,6 @@ echo "Mercedes Garcia's CST 336 Homepage";
 ?>
     <br /><br />
     
-    <a href="Labs/Lab6/login.php"> Lab 6 </a>
+    <a href="Labs/Lab7/index.html"> Lab 7 </a>
 </body>
 </html>
