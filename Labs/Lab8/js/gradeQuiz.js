@@ -18,6 +18,9 @@ $(document).ready(function(){
         
         console.log(answer1);
         console.log(answer2);
+        console.log(answer3);
+        console.log(answer4);
+        
         
         //Checks if answers are correct
         // Question 1
