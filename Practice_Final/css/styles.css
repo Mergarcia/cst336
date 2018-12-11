@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+  
+}
+#options {
+    padding-left: 50pt;
+    
+}
+#feedback {
+    display: none;  /*Hides feedback when accessing quiz */
+    margin: 0 auto;
+    text-align: center;
+}

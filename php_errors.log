@@ -162,3 +162,582 @@
 [14-Nov-2018 02:14:58 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/cst336/scart/scart.php on line 44
 [14-Nov-2018 02:14:58 UTC] PHP Stack trace:
 [14-Nov-2018 02:14:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Dec-2018 21:42:18 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 27
+[06-Dec-2018 21:42:18 UTC] PHP Stack trace:
+[06-Dec-2018 21:42:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:11:53 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 27
+[06-Dec-2018 23:11:53 UTC] PHP Stack trace:
+[06-Dec-2018 23:11:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:12:36 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 27
+[06-Dec-2018 23:12:36 UTC] PHP Stack trace:
+[06-Dec-2018 23:12:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:18:51 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 28
+[06-Dec-2018 23:18:51 UTC] PHP Stack trace:
+[06-Dec-2018 23:18:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:19:31 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 28
+[06-Dec-2018 23:19:31 UTC] PHP Stack trace:
+[06-Dec-2018 23:19:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:19:58 UTC] PHP Fatal error:  Call to undefined function displayCategories() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 28
+[06-Dec-2018 23:19:58 UTC] PHP Stack trace:
+[06-Dec-2018 23:19:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:06 UTC] PHP Warning:  include(../Lab5/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:06 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:06 UTC] PHP Warning:  include(): Failed opening '../Lab5/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:06 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:06 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 9
+[06-Dec-2018 23:23:06 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:30 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:30 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:30 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:30 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:30 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 9
+[06-Dec-2018 23:23:30 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:33 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:33 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:33 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:23:33 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:23:33 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 9
+[06-Dec-2018 23:23:33 UTC] PHP Stack trace:
+[06-Dec-2018 23:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:24:27 UTC] PHP Warning:  include(../inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:24:27 UTC] PHP Stack trace:
+[06-Dec-2018 23:24:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:24:27 UTC] PHP Warning:  include(): Failed opening '../inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 7
+[06-Dec-2018 23:24:27 UTC] PHP Stack trace:
+[06-Dec-2018 23:24:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:24:27 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 9
+[06-Dec-2018 23:24:27 UTC] PHP Stack trace:
+[06-Dec-2018 23:24:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/index.php:0
+[06-Dec-2018 23:25:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'project_db'' in /home/ubuntu/workspace/cst336/Final_Project/inc/dbConnection.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/inc/dbConnection.php(17): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(9): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/inc/dbConnection.php on line 17
+[06-Dec-2018 23:26:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'VSE_rentals.om_category' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(93): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 15
+[06-Dec-2018 23:29:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'VSE_rentals.om_category' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(93): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 15
+[06-Dec-2018 23:40:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNIQUE' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(93): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 15
+[06-Dec-2018 23:42:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'UNIQUE' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(93): displayCategories()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 15
+[06-Dec-2018 23:43:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'VSE_rentals.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(65): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 65
+[06-Dec-2018 23:44:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'VSE_rentals.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(65): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 65
+[06-Dec-2018 23:44:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'VSE_rentals.om_product' doesn't exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:65
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(65): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(111): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 65
+[07-Dec-2018 00:20:46 UTC] PHP Parse error:  syntax error, unexpected '"<br/><br/></div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 83
+[07-Dec-2018 00:21:16 UTC] PHP Parse error:  syntax error, unexpected '"<br/><br/></div>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 83
+[07-Dec-2018 00:25:56 UTC] PHP Parse error:  syntax error, unexpected '"<br/> "' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 82
+[07-Dec-2018 00:28:09 UTC] PHP Parse error:  syntax error, unexpected '"', expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 82
+[07-Dec-2018 00:29:01 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 82
+[07-Dec-2018 00:29:27 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 82
+[07-Dec-2018 00:32:16 UTC] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 83
+[07-Dec-2018 00:38:24 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 87
+[07-Dec-2018 00:38:51 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 87
+[07-Dec-2018 00:39:22 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 87
+[07-Dec-2018 00:39:34 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 87
+[07-Dec-2018 00:40:27 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 87
+[07-Dec-2018 00:41:12 UTC] PHP Parse error:  syntax error, unexpected '.' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 00:49:02 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 86
+[07-Dec-2018 00:49:26 UTC] PHP Parse error:  syntax error, unexpected '$record' (T_VARIABLE), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 86
+[07-Dec-2018 03:52:09 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 24
+[07-Dec-2018 03:53:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 AND genre = 'Action'' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:54:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 AND (name LIKE '%pretty%' OR description LIKE '%pretty%')' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:54:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:54:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:57:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND genre = 'Action'' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:57:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND genre = 'Action'' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 03:57:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND genre = 'Biography'' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:84
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(84): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(134): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 84
+[07-Dec-2018 04:01:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND idVid = 'Biography'' at line 3' in /home/ubuntu/workspace/cst336/Final_Project/index.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(136): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 86
+[07-Dec-2018 04:04:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1 AND idVid = 'Biography'' at line 3' in /home/ubuntu/workspace/cst336/Final_Project/index.php:86
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(86): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(136): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 86
+[07-Dec-2018 04:04:55 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'where clause'' in /home/ubuntu/workspace/cst336/Final_Project/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(127): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 77
+[07-Dec-2018 04:06:45 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'where clause'' in /home/ubuntu/workspace/cst336/Final_Project/index.php:77
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(77): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(127): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 77
+[07-Dec-2018 04:07:37 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 133
+[07-Dec-2018 04:08:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre' in 'where clause'' in /home/ubuntu/workspace/cst336/Final_Project/index.php:79
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(79): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(129): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 79
+[07-Dec-2018 04:16:22 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 04:16:22 UTC] PHP Stack trace:
+[07-Dec-2018 04:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 04:16:22 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 04:16:22 UTC] PHP Stack trace:
+[07-Dec-2018 04:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 04:16:22 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 6
+[07-Dec-2018 04:16:22 UTC] PHP Stack trace:
+[07-Dec-2018 04:16:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 04:23:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM videos INNER JOIN genre_movie ON genre_movie.movieId = videos.idVid
+       ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:24:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT  genre_movie.movieId = videos.idVid
+                    INNER JOIN  gen' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:25:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT FROM videos INNER JOIN genre_movie ON genre_movie.movieId = videos.idVi' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:40:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name LIKE '%hunt%' OR description LIKE '%hunt%')' at line 2' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:40:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name LIKE '%gump%' OR description LIKE '%gump%')' at line 2' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:40:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name LIKE '%gump%' OR description LIKE '%gump%')' at line 2' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:41:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'name LIKE '%LION%' OR description LIKE '%LION%')' at line 2' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:41:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1305 FUNCTION VSE_rentals.DISINCT does not exist' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:54:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT JOIN genre_movie ON genre_movie.movieId = videos.idVid
+                    ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:54:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LEFT JOIN genre_movie ON genre_movie.movieId = videos.idVid
+                    ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:57:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_movie.genreId' in 'on clause'' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 04:59:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1 AND genre = 'Romance'' at line 2' in /home/ubuntu/workspace/cst336/Final_Project/index.php:85
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(85): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(135): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 85
+[07-Dec-2018 05:00:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'I           NNER JOIN  genre 
+                        ON genre.genreId = genre_m' at line 4' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:17:51 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 05:17:51 UTC] PHP Stack trace:
+[07-Dec-2018 05:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 05:17:51 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 05:17:51 UTC] PHP Stack trace:
+[07-Dec-2018 05:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 05:17:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 6
+[07-Dec-2018 05:17:51 UTC] PHP Stack trace:
+[07-Dec-2018 05:17:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 05:20:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:23:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE DISTICT name)' at line 5' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:24:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE DISTICT '%clue%')' at line 5' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:29:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:31:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT DISCTINCT * (name LIKE '%king%' OR description LIKE '%king%')' at line 5' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:34:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT name LIKE DISTINCT '%king%' OR description LIKE '%king%')' at line 5' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 05:35:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT idVid AND (name LIKE '%king%' OR description LIKE '%king%')' at line 5' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 06:31:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'genre_movie.idd' in 'on clause'' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 06:37:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT (genre_movie.movieId = videos.idVid)
+                    INNER JOIN  ge' at line 3' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 06:38:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT (genre_movie.movieId = videos.idVid)
+                    INNER JOIN  ge' at line 3' in /home/ubuntu/workspace/cst336/Final_Project/index.php:88
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(88): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(138): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 88
+[07-Dec-2018 07:17:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT name, rating, price, picture, trailer, genre_movie.genreId FROM videos ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(96): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(146): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 96
+[07-Dec-2018 07:18:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT name, rating, price, picture, trailer FROM videos 
+                    ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(96): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(146): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 96
+[07-Dec-2018 07:18:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DISTINCT name, rating, price, picture, trailer FROM videos 
+                    ' at line 1' in /home/ubuntu/workspace/cst336/Final_Project/index.php:96
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Final_Project/index.php(96): PDOStatement->execute(Array)
+#1 /home/ubuntu/workspace/cst336/Final_Project/index.php(146): displaySearchResults()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Final_Project/index.php on line 96
+[07-Dec-2018 09:36:11 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 4
+[07-Dec-2018 09:36:11 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 09:36:11 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 4
+[07-Dec-2018 09:36:11 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 09:36:11 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 6
+[07-Dec-2018 09:36:11 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 09:36:42 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 4
+[07-Dec-2018 09:36:42 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 09:36:42 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 4
+[07-Dec-2018 09:36:42 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 09:36:42 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/admin.php on line 6
+[07-Dec-2018 09:36:42 UTC] PHP Stack trace:
+[07-Dec-2018 09:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/admin.php:0
+[07-Dec-2018 20:59:04 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 20:59:04 UTC] PHP Stack trace:
+[07-Dec-2018 20:59:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 20:59:04 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[07-Dec-2018 20:59:04 UTC] PHP Stack trace:
+[07-Dec-2018 20:59:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 20:59:04 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 6
+[07-Dec-2018 20:59:04 UTC] PHP Stack trace:
+[07-Dec-2018 20:59:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[07-Dec-2018 23:59:03 UTC] PHP Warning:  include(inc/dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 3
+[07-Dec-2018 23:59:03 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[07-Dec-2018 23:59:03 UTC] PHP Warning:  include(): Failed opening 'inc/dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 3
+[07-Dec-2018 23:59:03 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[07-Dec-2018 23:59:03 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 4
+[07-Dec-2018 23:59:03 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[07-Dec-2018 23:59:23 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 3
+[07-Dec-2018 23:59:23 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[07-Dec-2018 23:59:23 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 3
+[07-Dec-2018 23:59:23 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[07-Dec-2018 23:59:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 4
+[07-Dec-2018 23:59:23 UTC] PHP Stack trace:
+[07-Dec-2018 23:59:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 00:00:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(28): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:03:27 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 34
+[08-Dec-2018 00:12:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:13:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:13:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:13:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:14:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:14:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:14:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:14:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:14:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:15:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:15:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:20:32 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:21:17 UTC] PHP Warning:  include(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[08-Dec-2018 00:21:17 UTC] PHP Stack trace:
+[08-Dec-2018 00:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[08-Dec-2018 00:21:17 UTC] PHP Warning:  include(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 5
+[08-Dec-2018 00:21:17 UTC] PHP Stack trace:
+[08-Dec-2018 00:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[08-Dec-2018 00:21:17 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php on line 6
+[08-Dec-2018 00:21:17 UTC] PHP Stack trace:
+[08-Dec-2018 00:21:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Final_Project/loginProcess.php:0
+[08-Dec-2018 00:22:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(40): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:24:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(41): displayHero()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 00:28:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'firstName' at line 3' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(53): displayOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 25
+[08-Dec-2018 00:33:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1' at line 1' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(50): displayOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 23
+[08-Dec-2018 00:33:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE 1' at line 4' in /home/ubuntu/workspace/cst336/Practice_Final/index.php:26
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/Practice_Final/index.php(26): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst336/Practice_Final/index.php(53): displayOptions()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 26
+[08-Dec-2018 00:37:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 60
+[08-Dec-2018 00:53:41 UTC] PHP Parse error:  syntax error, unexpected 'image' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 21
+[08-Dec-2018 00:55:57 UTC] PHP Parse error:  syntax error, unexpected '"' >"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 7
+[08-Dec-2018 00:56:19 UTC] PHP Parse error:  syntax error, unexpected '" . ' >"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 7
+[08-Dec-2018 02:02:23 UTC] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL) in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 13
+[08-Dec-2018 02:16:06 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 33
+[08-Dec-2018 02:16:20 UTC] PHP Fatal error:  Call to undefined function imageSrc() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 23
+[08-Dec-2018 02:16:20 UTC] PHP Stack trace:
+[08-Dec-2018 02:16:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 02:16:20 UTC] PHP   2. displayRandomHero() /home/ubuntu/workspace/cst336/Practice_Final/index.php:44
+[08-Dec-2018 02:17:04 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 6
+[08-Dec-2018 02:17:30 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 9
+[08-Dec-2018 02:17:45 UTC] PHP Fatal error:  Call to undefined function displayOptions() in /home/ubuntu/workspace/cst336/Practice_Final/quiz.php on line 8
+[08-Dec-2018 02:17:45 UTC] PHP Stack trace:
+[08-Dec-2018 02:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 02:17:45 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Practice_Final/index.php:7
+[08-Dec-2018 02:18:20 UTC] PHP Fatal error:  Call to undefined function displayOptions() in /home/ubuntu/workspace/cst336/Practice_Final/quiz.php on line 8
+[08-Dec-2018 02:18:20 UTC] PHP Stack trace:
+[08-Dec-2018 02:18:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 02:18:20 UTC] PHP   2. include() /home/ubuntu/workspace/cst336/Practice_Final/index.php:5
+[08-Dec-2018 02:19:37 UTC] PHP Fatal error:  Call to undefined function imageSrc() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 26
+[08-Dec-2018 02:19:37 UTC] PHP Stack trace:
+[08-Dec-2018 02:19:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 02:19:37 UTC] PHP   2. displayRandomHero() /home/ubuntu/workspace/cst336/Practice_Final/index.php:47
+[08-Dec-2018 02:42:53 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 69
+[08-Dec-2018 02:45:03 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 7
+[08-Dec-2018 02:45:33 UTC] PHP Parse error:  syntax error, unexpected 'empty' (T_EMPTY), expecting '(' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 7
+[08-Dec-2018 06:42:17 UTC] PHP Fatal error:  Call to undefined function displayRandomHero() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 11
+[08-Dec-2018 06:42:17 UTC] PHP Stack trace:
+[08-Dec-2018 06:42:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 06:43:54 UTC] PHP Fatal error:  Call to undefined function displayRandomHero() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 12
+[08-Dec-2018 06:43:54 UTC] PHP Stack trace:
+[08-Dec-2018 06:43:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 06:52:48 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 24
+[08-Dec-2018 06:59:26 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/cst336/Practice_Final/quiz.php on line 21
+[08-Dec-2018 06:59:26 UTC] PHP Stack trace:
+[08-Dec-2018 06:59:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
+[08-Dec-2018 06:59:26 UTC] PHP   2. displayHero() /home/ubuntu/workspace/cst336/Practice_Final/index.php:29
+[08-Dec-2018 06:59:26 UTC] PHP   3. displayRandomHero() /home/ubuntu/workspace/cst336/Practice_Final/index.php:7
+[08-Dec-2018 07:02:59 UTC] PHP Fatal error:  Call to undefined function displayHero() in /home/ubuntu/workspace/cst336/Practice_Final/index.php on line 26
+[08-Dec-2018 07:02:59 UTC] PHP Stack trace:
+[08-Dec-2018 07:02:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Practice_Final/index.php:0
