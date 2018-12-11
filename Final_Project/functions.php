@@ -39,7 +39,7 @@ function displaySearchResults(){
             //filters the videos according to the form fields
             if (!empty($_GET['product'])){  //checks whether user has typed something in the "Product" text box
                 $sql .= " AND (name LIKE :name)";
-                $namedParameters[":name"] = $_GET["product"]."%";
+                $namedParameters[":name"] = "%" . $_GET["product"]."%";
             }
             
             if (!empty($_GET["category"])){  //checks whether user has selected a category
