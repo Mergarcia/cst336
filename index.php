@@ -28,9 +28,9 @@ echo "Mercedes Garcia's CST 336 Homepage";
     <br /><br />
     <a href="Labs/Lab5/index.php"> Lab 5 </a>
     <br /><br />
-    <a href="Labs/Lab6/login.php"> Lab 6? </a> 
+    <a href="Labs/Lab6/login.php"> Lab 6 </a> 
     <br /><br />
-    <a href="Labs/Lab7/index.html"> Lab 7? </a> 
+    <a href="Labs/Lab7/index.html"> Lab 7 </a> 
     <br /><br />
     <a href="Labs/Lab8/index.php"> Lab 8 </a>
     <br /><br />
